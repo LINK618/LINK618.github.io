@@ -126,6 +126,7 @@ nav li {
 #check {
     display:none;
 }
+
 @media(max-width:1000px) {
     label.logo {
         font-size:.9em;
@@ -160,6 +161,8 @@ nav li {
         display:block;
     }
 }
+
+
 /* isi */
 .halaman {
     width:100%;
@@ -174,7 +177,7 @@ nav li {
 }
 .isi {
     width:98%;
-    height:580px;
+    height:562px;
     transform:translateX(13px);
     background-image:var(--image-color);
     background-size:cover;
@@ -278,7 +281,55 @@ footer img:hover {
     background:transparent;
     border:1px solid white;
 }
-@media (max-width:360px){
+/* mobile screen for home page */
+/* @media (max-width:1140px) {
+    .isi {
+        height:610px;
+    }
+    .halaman p {
+        font-size:.9em;
+        margin:0 50px;
+        color:rgb(211, 16, 165);
+    }
+} */
+@media (max-width:1122px) {
+    .isi {
+        height:700px;
+    }
+    .halaman p {
+        font-size:.9em;
+        margin:0 200px;
+        color:rgb(194, 203, 27);
+    }
+    /* .card {
+        width:150px;
+    }
+    .card-image {
+        height:90px;
+    } */
+}
+@media (max-width:897px) {
+    .isi {
+        height:1012px;
+    }
+    .halaman p {
+        font-size:.9em;
+        margin:0 50px;
+        color:rgb(27, 203, 71);
+    }
+}
+@media (max-width:672px) {
+    .isi {
+        height:1010px;
+    }
+    .halaman p {
+        font-size:.9em;
+        margin:0 50px;
+        color:rgb(27, 203, 71);
+    }
+}
+
+@media (max-width:466px){
     .card {
         width:190px;
     }
@@ -293,6 +344,7 @@ footer img:hover {
     .halaman p {
         margin:0 40px;
         font-size:.7em;
+        color:blue;
     }
     footer p {
         font-size:.8em;
@@ -318,6 +370,9 @@ footer img:hover {
         line-height:15px;
     }
 }
+
+
+
 .youha-island{
     margin-top:60px;
     width:100%;
@@ -431,6 +486,8 @@ footer img:hover {
     color:var(--title-color);
     transition:.3s;
 }
+
+/* mobile screen for next page */
 @media (max-width:360px) {
     .ichi {
         display:block;
