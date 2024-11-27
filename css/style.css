@@ -292,6 +292,9 @@ footer img:hover {
         color:rgb(211, 16, 165);
     }
 } */
+
+
+/* tampilan mobile */
 @media (max-width:1122px) {
     .isi {
         height:700px;
@@ -543,5 +546,15 @@ footer img:hover {
     .hero-content{
         width:100%;
         height:240px;
+    }
+}
+
+@media (max-width:330px) {
+    .video[poster] {
+        width:90%;
+        height:220px;
+    }
+    .ichi-title {
+        margin-bottom:70px;
     }
 }
