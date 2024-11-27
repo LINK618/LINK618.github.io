@@ -530,8 +530,9 @@ footer img:hover {
         margin-top:50px;
     }
     .satu {
-        width:340px;
-        height:340px;
+        width:320px;
+        height:320px;
+        margin:auto;
         margin-bottom:10px;
     }
     .ichi table {
