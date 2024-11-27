@@ -582,7 +582,7 @@ footer img:hover {
         height:240px;
     }
 }
-@media (max-width:420px) {
+@media (max-width:440px) {
     .ichi {
         display:block;
         margin-top:50px;
