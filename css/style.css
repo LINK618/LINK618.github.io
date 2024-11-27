@@ -530,7 +530,7 @@ footer img:hover {
         margin-top:50px;
     }
     .satu {
-        width:320px;
+        width:320px !important;
         height:320px;
         margin:auto;
         margin-bottom:10px;
