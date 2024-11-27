@@ -321,6 +321,7 @@ footer img:hover {
         color:rgb(27, 203, 71);
     }
 }
+
 @media (max-width:672px) {
     .isi {
         height:1010px;
@@ -491,6 +492,154 @@ footer img:hover {
 }
 
 /* mobile screen for next page */
+@media (max-width:910px) {
+    .video[poster] {
+        width:800px;
+        height:380px;
+    }
+}
+@media (max-width:680px) {
+    .video[poster] {
+        width:490px;
+        height:280px;
+    }
+    .hero-content {
+        height:0px;
+    }
+    .hero {
+        height:300px;
+    }
+}
+
+@media (max-width:500px) {
+    .video[poster] {
+        width:365px;
+        height:210px;
+    }
+    .hero-content {
+        height:0px;
+    }
+    .hero {
+        height:200px;
+    }
+}
+
+@media (max-width:480px) {
+    .ichi {
+        display:block;
+        margin-top:50px;
+    }
+    .satu {
+        width:340px;
+        height:340px;
+        margin-bottom:10px;
+    }
+    .ichi table {
+        height:200px;
+    }
+    .ichi-title {
+        margin-top:280px;
+        margin-bottom:60px;
+        height:300px;
+        /* padding:0 20px; */
+    }
+    /* .ichi-title p {
+        font-size:80px;
+    } */
+    .ichi-title h5 {
+        font-size:12px;
+    }
+    .ichi-title h5:nth-child(1){
+        font-size:12px;
+    }
+    .ichi table {
+        font-size:.5em;
+        margin-left:0;
+        margin-top:0px;
+    }
+    .youha-island p {
+        font-size:.6em;
+    }
+    .pertama {
+        width:100%;
+        height:100%;
+        background-position:top -20px left 0;
+    }
+    .hero {
+        height:200px;
+        margin-bottom:0;
+    }
+    .hero-content:hover .pertama {
+        transform:scale(1);
+    }
+    .video[poster] {
+        width:350px;
+        height:200px;
+    }
+    .hero-content{
+        width:100%;
+        height:240px;
+    }
+}
+@media (max-width:420px) {
+    .ichi {
+        display:block;
+        margin-top:50px;
+        
+    }
+    .satu {
+        width:300px;
+        height:300px;
+        margin-bottom:10px;
+    }
+    .ichi table {
+        height:200px;
+    }
+    .ichi-title {
+        margin-top:280px;
+        margin-bottom:60px;
+        height:332px;
+        /* padding:0 20px; */
+    }
+    /* .ichi-title p {
+        font-size:80px;
+    } */
+    .ichi-title h5 {
+        font-size:12px;
+    }
+    .ichi-title h5:nth-child(1){
+        font-size:12px;
+    }
+    .ichi table {
+        font-size:.5em;
+        margin-left:0;
+        margin-top:0px;
+    }
+    .youha-island p {
+        font-size:.6em;
+    }
+    .pertama {
+        width:100%;
+        height:100%;
+        background-position:top -20px left 0;
+    }
+    .hero {
+        height:200px;
+        margin-bottom:0;
+    }
+    .hero-content:hover .pertama {
+        transform:scale(1);
+    }
+    .video[poster] {
+        width:350px;
+        height:200px;
+    }
+    .hero-content{
+        width:100%;
+        height:240px;
+    }
+}
+
 @media (max-width:360px) {
     .ichi {
         display:block;
@@ -506,7 +655,7 @@ footer img:hover {
     }
     .ichi-title {
         margin-top:220px;
-        margin-bottom:40px;
+        margin-bottom:60px;
         height:370px;
         /* padding:0 20px; */
     }
