@@ -531,7 +531,7 @@ footer img:hover {
     }
     .satu {
         width:320px !important;
-        height:320px;
+        height:320px !important;
         margin:auto;
         margin-bottom:10px;
     }
@@ -589,8 +589,8 @@ footer img:hover {
         
     }
     .satu {
-        width:280px;
-        height:280px;
+        width:280px !important;
+        height:280px !important;
         margin:auto;
         margin-bottom:10px;
     }
